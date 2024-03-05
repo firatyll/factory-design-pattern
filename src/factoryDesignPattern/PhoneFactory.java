@@ -10,7 +10,7 @@ class PhoneFactory {
 		}
 
 		if (brand.equals("samsung")) {
-			phone = new Iphone(brand, model, price);
+			phone = new Samsung(brand, model, price);
 		}
 
 		return phone;
