@@ -6,11 +6,11 @@ class PhoneFactory {
 		Phone phone = null;
 
 		if (brand.equals("apple")) {
-			phone = new Iphone(brand, model, price);
+			phone = new Iphone(model, price);
 		}
 
 		if (brand.equals("samsung")) {
-			phone = new Samsung(brand, model, price);
+			phone = new Samsung(model, price);
 		}
 
 		return phone;

@@ -6,8 +6,8 @@ class Samsung implements Phone {
 	private String model;
 	private int price;
 
-	public Samsung(String brand, String model, int price) {
-		this.brand = brand;
+	public Samsung(String model, int price) {
+		this.brand = "samsung";
 		this.model = model;
 		this.price = price;
 	}

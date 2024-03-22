@@ -6,8 +6,8 @@ class Iphone implements Phone {
 	private String model;
 	private int price;
 
-	public Iphone(String brand, String model, int price) {
-		this.brand = brand;
+	public Iphone(String model, int price) {
+		this.brand = "apple";
 		this.model = model;
 		this.price = price;
 	}
